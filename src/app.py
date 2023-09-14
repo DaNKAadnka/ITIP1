@@ -8,6 +8,12 @@ eport = 5000
 ehost = '127.0.0.1'
 ename = 'Danil'
 
+def fact (n) :
+    res = 1
+    for i in range (2, n+1) :
+        res *= i
+    return res
+
 @app.route('/')
 def hello() -> str:
     return formation('Hello, {}', ename)
