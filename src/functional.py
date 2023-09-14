@@ -6,6 +6,3 @@ def gcd (a, b) :
         return a
     else :
         return gcd(b, a % b)
-
-def BIG_CHENGES_OF_EVER(n):
-    return n
