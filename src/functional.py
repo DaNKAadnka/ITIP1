@@ -9,3 +9,6 @@ def gcd (a, b) :
 
 def BigChangeEver(n) :
     return n
+
+def Gig(name):
+    return "You are a gig, " + name
