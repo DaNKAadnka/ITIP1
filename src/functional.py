@@ -6,3 +6,6 @@ def gcd (a, b) :
         return a
     else :
         return gcd(b, a % b)
+
+def BigChangeEver(n) :
+    return n
